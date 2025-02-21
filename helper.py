@@ -1,13 +1,15 @@
 import requests
 from PyPDF2 import PdfReader
 from dotenv import load_dotenv
+import streamlit as st
 import os
 
 # Load environment variables
 load_dotenv()
 
 # Get the API key from the .env file
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+# GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"  # Base URL without the key
 
 def get_gemini_response(profile, lang=""):
