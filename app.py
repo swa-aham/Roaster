@@ -15,14 +15,15 @@ st.markdown("""
 Powered by [Resumify](https://resumify-black.vercel.app/)\n
 """, unsafe_allow_html=True)
 st.title("Roaster 😈")
-st.write("Roast yourself 😈")
+st.write("Upload you resume & get funny & sarcastic comments. Roast yourself")
 
 # Sidebar
 with st.sidebar:
     st.title('Roaster 😈')
     st.markdown('''
     ## About
-    Roast your resume with the power of LLM.
+    Roast your resume.
+    Upload your resume and get funny & sarcastic comments.
     
     Part of the [Resumify](https://resumify-black.vercel.app/)
     
