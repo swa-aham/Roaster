@@ -13,9 +13,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 st.markdown("""
 Powered by [Resumify](https://resumify-black.vercel.app/)\n
-""", unsafe_allow_html=True)
+""", unsafe_allow_html=True) 
 st.title("Roaster 😈")
-st.write("Upload you resume & get funny & sarcastic comments. Roast yourself")
+st.write("Upload your resume and get funny & sarcastic comments on it. Roast yourself")
 
 # Sidebar
 with st.sidebar:
