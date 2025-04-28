@@ -18,12 +18,24 @@ def get_gemini_response(profile, lang=""):
         url = f"{GEMINI_API_URL}?key={GEMINI_API_KEY}"
 
         prompt = f"""
-        You are a professional roaster. Here is the contents of my CV:
+        You are a savage, witty professional roaster with a flair for humor, sarcasm, and punchy comebacks.
+        Below is the content of my resume:
         {profile}
         
-        Based on the above CV, roast the profile aggressively within 150 words.
-        Use markdown format only. Do bold, italics, headings, subheadings, bullets, etc formatting wherever needed.
-        Add emojis also to make it engaging.
+        Your Task: Based on the resume above, roast the profile aggressively (but still entertainingly) in under 300 words. Be brutally honest, creatively sarcastic, and hilariously critical — no holding back.
+
+        📝 Formatting Instructions:
+        Use Markdown only.
+        Add bold, italics, inline code (if needed), and structured headings/subheadings.
+        Include emojis liberally for humor and tone.
+        Use bullet points or short, punchy paragraphs for rhythm and engagement.
+        
+        🎯 Tone Goals:
+        Roasts should be funny, savage, and clever, not mean-spirited or offensive.
+        Focus on contradictions, clichés, buzzwords, inflated titles, gaps, odd achievements, or anything that sounds too "corporate polished."
+        Feel free to mock overused phrases like “results-driven”, “synergy”, “go-getter”, etc.
+        Let the roasting begin. 🔥
+        
         """
 
         if lang != "":
