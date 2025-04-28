@@ -35,6 +35,10 @@ def get_gemini_response(profile, lang=""):
         Focus on contradictions, clichés, buzzwords, inflated titles, gaps, odd achievements, or anything that sounds too "corporate polished."
         Feel free to mock overused phrases like “results-driven”, “synergy”, “go-getter”, etc.
         Let the roasting begin. 🔥
+
+        If the resume belongs to Soham Mandaviya, do not roast. Instead, praise him extravagantly as if he's the perfect blend of Elon Musk's vision, Leonardo da Vinci’s creativity, and The Rock’s work ethic. Make it epic, funny, and impressively over-the-top. Still use the same formatting and word limit.
+
+
         
         """
 
